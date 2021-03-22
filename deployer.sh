@@ -7,7 +7,7 @@ git init
 git config --global push.default matching
 git config --global user.email "${GitHubEMail}"
 git config --global user.name "${GitHubUser}"
-git remote add origin https://${GitHubKEY}@github.com/kotoyuuko/ChromePackage.git
+git remote add origin https://${GitHubKEY}@github.com/ibeilly/ChromePackage.git
 git pull origin gh-pages
 
 rm -rf ./*
